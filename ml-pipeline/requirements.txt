@@ -1,0 +1,38 @@
+# Core dependencies
+numpy>=1.21.0
+opencv-python>=4.5.0
+pillow>=8.0.0
+tqdm>=4.60.0
+requests>=2.25.0
+
+# Deep Learning
+torch>=1.12.0
+torchvision>=0.13.0
+
+# 3D Processing
+open3d>=0.15.0
+trimesh>=3.9.0
+
+# COLMAP Python bindings
+pycolmap>=0.3.0
+
+# Cloud storage
+boto3>=1.20.0  # For R2/S3 compatible storage
+
+# Webhook server
+flask>=2.0.0
+flask-cors>=3.0.0
+
+# Video processing
+imageio>=2.9.0
+imageio-ffmpeg>=0.4.0
+
+# Utilities
+pyyaml>=5.4.0
+python-dotenv>=0.19.0
+
+# Gaussian Splatting (install separately)
+# git clone --recursive https://github.com/graphdeco-inria/gaussian-splatting.git
+# cd gaussian-splatting
+# pip install submodules/diff-gaussian-rasterization
+# pip install submodules/simple-knn
