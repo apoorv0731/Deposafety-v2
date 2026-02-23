@@ -103,7 +103,7 @@ export const ReportList = ({ propertyId }) => {
     return (
       <div className="space-y-4">
         {[1, 2, 3].map((i) => (
-          <div key={i} className="card animate-pulse h-32"> />
+          <div key={i} className="card animate-pulse h-32"></div>
         ))}
       </div>
     )
